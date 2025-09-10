@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheshsha Productions</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Colors */
+    :root {
+      --gold: #d4af37;
+      --dark: #0d0d0d;
+      --light: #f5f5f5;
+      --muted: #999;
+    }
+
+    /* Layout */
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 0;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      text-align: center;
+      padding: 120px 20px;
+      color: var(--light);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: var(--gold);
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--gold);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    /* Expertise Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    /* Collaborations */
+    .collab-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .collab-list {
+      flex: 1 1 45%;
+    }
+
+    .collab-list h3 {
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .collab-list ul {
+      list-style: none;
+    }
+
+    .collab-list li {
+      margin-bottom: 8px;
+    }
+
+    /* Contact */
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .social-icons {
+      margin: 20px 0;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: var(--gold);
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+
+  </style>
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Hero -->
+  <header>
+    <h1>Sheshsha Productions</h1>
+    <p>Cinematic Storytelling That Captures the Moment</p>
+  </header>
+
+  <!-- About -->
+  <section class="container">
+    <h2>About Us</h2>
+    <p>
+      At Sheshsha Productions, we transform live performances and events into unforgettable cinematic experiences. 
+      With years of expertise in concert coverage, high-impact storytelling, and branded video production, 
+      we bring energy, artistry, and passion to every frame.
+    </p>
+  </section>
+
+  <!-- Expertise -->
+  <section class="container">
+    <h2>Our Expertise</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Cinematic Concert Coverage</h3>
+        <p>Capturing the electrifying energy of live performances.</p>
+      </div>
+      <div class="card">
+        <h3>Dynamic Editing</h3>
+        <p>Fast-paced, visually captivating edits tailored to your needs.</p>
+      </div>
+      <div class="card">
+        <h3>Event Storytelling</h3>
+        <p>From behind-the-scenes to the main stage, we craft seamless narratives.</p>
+      </div>
+      <div class="card">
+        <h3>Quick Delivery</h3>
+        <p>Fast turnaround for maximum post-event impact.</p>
+      </div>
+      <div class="card">
+        <h3>Brand & Product Shoots</h3>
+        <p>Stunning visuals that elevate your brand identity.</p>
+      </div>
+      <div class="card">
+        <h3>Music Videos</h3>
+        <p>Professional, cinematic storytelling through music.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collaborations -->
+  <section class="container">
+    <h2>Past Collaborations</h2>
+    <div class="collab-container">
+      <div class="collab-list">
+        <h3>Artists</h3>
+        <ul>
+          <li>Sachiin Kumbhaar</li>
+          <li>Chirag Vithalani</li>
+          <li>Wardha Nadiadwala</li>
+          <li>Karan Kundra</li>
+          <li>Neha Bhasin</li>
+          <li>Sreerama Chandra</li>
+          <li>Ruhi Singh</li>
+          <li>Shahid Kapoor</li>
+          <li>Karan Johar</li>
+          <li>Ranbir Kapoor</li>
+          <li>Lakshya Sharma</li>
+          <li>Shresta Iyer</li>
+        </ul>
+      </div>
+      <div class="collab-list">
+        <h3>Brands & Companies</h3>
+        <ul>
+          <li>Toast Events</li>
+          <li>F5 Events</li>
+          <li>Star Sports TV</li>
+          <li>Netflix</li>
+          <li>Amazon Prime</li>
+          <li>BCB Broking Firm</li>
+          <li>Jio Hotstar</li>
+          <li>Times Network</li>
+          <li>Miss India</li>
+          <li>Shell TikiTar</li>
+          <li>7Vachan Weddings</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container">
+    <h2>Let's Work Together</h2>
+    <p>
+      We don’t just record events—we create cinematic experiences that resonate with audiences and elevate your brand presence. 
+      Let’s collaborate to bring your vision to life.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h3>Contact Us</h3>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="far fa-envelope"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2025 Sheshsha Productions. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
