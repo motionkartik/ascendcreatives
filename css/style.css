@@ -528,13 +528,13 @@ a:focus {
 }
 .work__item .play-btn {
   display: inline-block;
-  color: #714b67; /* accent color */
+  color: #ffffff; /* accent color */
   font-size: 20px;
   height: 50px;
   width: 50px;
   line-height: 50px;
   text-align: center;
-  border: 1px solid #714b67; /* accent color */
+  border: 1px solid #ffffff; /* accent color */
   border-radius: 50%;
 }
 
@@ -554,10 +554,10 @@ a:focus {
   transition: all, 0.5s;
 }
 .work__item__hover h4 {
-  color: #714b67; /* accent color */
+  color: #ffffff; /* accent color */
 }
 .work__item__hover ul li {
-  color: #000; /* changed from #adadad to black */
+  color: #ffffff; /* changed from #adadad to black */
   list-style: none;
   font-size: 16px;
   margin-right: 23px;
